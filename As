@@ -1,0 +1,106 @@
+
+
+
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/slf0Dev/Ocerium_Project/main/Library.lua"))()
+Window = Library.Main("Script Hub","M") -- change "LeftAlt" to key that you want will hide gui
+
+
+--//tab
+local Tab = Window.NewTab("update log                         ")
+
+--//section
+local Section = Tab.NewSection("(update log)")
+
+--//section
+local Section = Tab.NewSection("added bedwars script")
+
+
+--//section
+local Section = Tab.NewSection("added prison life script")
+
+--//section
+local Section = Tab.NewSection("added 3008 script")
+
+--//section
+local Section = Tab.NewSection("added doors script")
+
+--//section
+local Section = Tab.NewSection("added build a boat script")
+
+--//section
+local Section = Tab.NewSection("added chat bypasser script")
+
+
+
+--//tab
+local Tab = Window.NewTab("Universal Scripts                         ")
+
+--//section
+local Section = Tab.NewSection("🟢 = Working, 🟡 = Partially Working, 🔴 = Patched")
+
+
+--//section
+local Section = Tab.NewSection("(uh idk what to put here)")
+
+
+--// Button
+local Button = Section.NewButton("Universal Camlock",function()
+loadstring(game:HttpGet("https://rentry.co/n55gmtpi/raw", true))()
+end)
+
+
+--// Button
+local Button = Section.NewButton("Broken Animations (Patched)",function()
+loadstring(game:HttpGet(("https://pastebin.com/raw/2vdmuhZT"), true))()
+end)
+
+--// Button
+local Button = Section.NewButton("Chat Bypasser",function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/hellohellohell012321/KAWAII-BYPASS/main/kawaii-bypass",true))() 
+end)
+
+--//tab
+local Tab = Window.NewTab("Games                         ")
+
+--//section
+local Section = Tab.NewSection("games uh yes")
+
+--// Button
+local Button = Section.NewButton("Breaking Point (H4R7N)",function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/H4R7NHacks/Obfuscated/master/Breaking%20Point%20H4R7N%20Hack.lua"))() 
+end)
+
+--// Button
+local Button = Section.NewButton("UTG Script",function()
+loadstring(game:HttpGet('https://pastebin.com/raw/FbJYwgnQ'))()
+end)
+
+--// Button
+local Button = Section.NewButton("Answer Or Die",function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/jaeelin/S-Ware/main/S-WARE'))() 
+end)
+
+--// Button
+local Button = Section.NewButton("Blade Ball",function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/6w0s/_6w0s/main/Loader.lua"))()
+end)
+
+--// Button
+local Button = Section.NewButton("bedwars",function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/7GrandDadPGN/VapeV4ForRoblox/main/NewMainScript.lua", true))()
+end)
+
+--// Button
+local Button = Section.NewButton("prison life",function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/WinterDinder/56-Clubs-Prison-Life-REMASTERED-SCRIPT/main/Main", true))()
+end)
+
+--// Button
+local Button = Section.NewButton("3008",function()
+loadstring(game:HttpGet'https://raw.githubusercontent.com/RunDTM/scripts/main/3008.lua')()
+end)
+
+--// Button
+local Button = Section.NewButton("Doors",function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/UltraStuff/scripts2/main/doors"))()
+end)
